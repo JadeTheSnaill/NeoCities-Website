@@ -1,0 +1,112 @@
+body {
+  background-color: #87ceeb;
+  background-image: url("CloudsBackground.gif");
+  background-size: cover;
+  margin: 0px;
+  font-family: "Century Gothic", "Verdana", sans-serif;
+  color: #012a3bd9;
+  overflow-x: hidden;
+}
+
+#Topborder {
+  background-image: url("cloudBorder.gif");
+  background-repeat: repeat-x;
+  height: 73px;
+  width: 100vw;
+  position: fixed;
+  top: -5px;
+  z-index: 3;
+}
+
+#BottomBorder {
+  background-image: url("cloudBorder.gif");
+  background-repeat: repeat-x;
+  height: 73px;
+  width: 100vw;
+  position: fixed;
+  bottom: -12px;
+  z-index: 3;
+}
+
+#websiteMain {
+  display: flex;
+  gap: 20px;
+}
+
+#websiteHeader {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  justify-content: center;
+
+}
+
+#navList {
+  list-style-type: none;
+    margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #8fd4ff68;
+    width: 50%;
+}
+
+#navLink {
+  float: left;
+  margin-right: 20px;
+}
+
+#websiteMain {
+  justify-content: center ;
+}
+
+#leftBar{
+    flex: 1; /* Takes up less space */
+  margin-left: 25px;
+  
+}
+
+#LeftBarSection {
+  background-color: #8fd4ff68;
+  border: 5px solid;
+  border-color: #012a3b54;
+  padding: 15px;
+  justify-content: center;
+}
+
+#SocialLinks {
+  list-style-type: none;
+  text-align: left;
+}
+
+#mainContentSection {
+  background-color: #8fd4ff68;
+  padding: 10px;
+  padding-left: -10px;
+  border: 5px solid;
+  border-color: #012a3b54;
+  padding-right: -50px;
+}
+
+
+#fishTank {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  justify-content: center;
+}
+
+#RightBar {
+  flex: 1;
+  margin-right: 25px;
+}
+
+#RightSection {
+    background-color: #8fd4ff68;
+  padding: 10px;
+  padding-right: -10px;
+  border: 5px solid;
+  border-color: #012a3b54;
+  padding-right: 75px;
+}
