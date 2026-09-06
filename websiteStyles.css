@@ -6,6 +6,7 @@ body {
   font-family: "Century Gothic", "Verdana", sans-serif;
   color: #012a3bd9;
   overflow-x: hidden;
+  cursor:url("MewCursor.gif"), auto;
 }
 
 #Topborder {
