@@ -11,6 +11,8 @@
     <link rel="icon" href="Uxie.ico" type="image/x-icon" />
 
     <link href="websiteStyles.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="websiteScripts.js"></script>
+    
 </head>
 
 <body>
@@ -41,15 +43,15 @@
                 <section id="LeftBarSection">
                     <h3>Social Links</h3>
                     <ul id="SocialLinks">
-                        
+
                         <li>
-                            <a href="https://twitter.com/jade" target="_blank">Twitter</a>
+                            <a href="https://twitter.com/SnailsTeeths" target="_blank">Twitter</a>
                         </li>
                         <li>
-                            <a href="https://instagram.com/jade" target="_blank">Instagram</a>
+                            <a href="https://github.com/JadeTheSnaill" target="_blank">GitHub</a>
                         </li>
                         <li>
-                            <a href="https://linkedin.com/in/jade" target="_blank">LinkedIn</a>
+                            <a href="https://twitch.tv/jade_trxtr_tv" target="_blank">Twitch</a>
                         </li>
                         <!-- Add more links and format the list better-->
                     </ul>
@@ -60,12 +62,12 @@
                     <h3>Hobbies:</h3>
                     <ul>
                         <!--This is a placeholder list, each part will link to a webpage.-->
-                    <li><a href="hobbiesPage.html">Hobbies!!</a></li>
+                        <li><a href="hobbiesPage.html">Hobbies!!</a></li>
 
                     </ul>
             </div>
         </aside>
-            <!--Main Centre Bar, where the main content goes.-->
+        <!--Main Centre Bar, where the main content goes.-->
         <div id="mainContent">
             <section id="MainContentSection">
                 <img id="aboutmeImg" src="aboutMeText.gif" alt="About me:" />
@@ -86,7 +88,7 @@
                     skills!
                     So i guess, expect a lot of changes as i get better at it!
                 </p>
-               
+
             </section>
             <br>
             <!--Do something with the fishtank, either bigger or add more images.-->
@@ -98,7 +100,7 @@
 
             </section>
             <br>
-        
+
             <section id="MainContentSection">
                 <H1>Webrings: </H1>
             </section>
@@ -108,7 +110,19 @@
         <!--This is the right bar section of the website.-->
         <div id="RightBar">
             <section id="RightSection">
-                <p>This is where the mediaplayer will go </p>
+                <h4>Music!!</h4>
+                <div class="jukebox">
+                    <button class="activate"><img src="Jurachi.png"></button>
+                    <ul>
+                        <button onclick="stopmusic()">stop music</button>
+
+                        <li><button value="0" onclick="playsong()">worrySlowed.mp3
+                                <audio>
+                                    <source src="worrySlowed.mp3" type="audio/mp3">
+                                </audio>
+                            </button></li>
+                </div>
+                <br>
             </section>
             <br>
 

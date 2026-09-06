@@ -110,3 +110,13 @@ body {
   border-color: #012a3b54;
   padding-right: 75px;
 }
+
+.jukebox {
+  position: relative;}
+.jukebox ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0px;}
+.jukebox:hover ul, .activate:focus + ul, .jukebox:focus-within > ul {
+  display: inline-block;}
